@@ -31,8 +31,9 @@ Este projeto consiste em uma API construída com Spring Boot para gerenciar trei
 
 ## Testar a API.
 Use ferramentas como Postman ou execute os seguintes comandos:
+```plaintext
 curl -X POST http://localhost:8080/api/treinos -H "Content-Type: application/json" -d '{ "nomeExercicio": "Supino Reto", "repeticoes": 10, "series": 3, "carga": 50 }'
-
+```
 ## Tecnologias Usadas.
   - Spring Web.
   - Spring Data JPA.
